@@ -1,0 +1,24 @@
+{
+  "name": "pre-page-objects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaiaraAvilaS/pre-page-objects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaiaraAvilaS/pre-page-objects/issues"
+  },
+  "homepage": "https://github.com/MaiaraAvilaS/pre-page-objects#readme",
+  "devDependencies": {
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
