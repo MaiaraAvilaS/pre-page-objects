@@ -1,20 +1,20 @@
-export default class LoginPage{
-    usuarioTxt: string = "";
-    senhaTxt: string = "";
-    logarBtn: string = "";
+export default class LoginPage {
+    private usuarioTxt: string = "";
+    private senhaTxt: string = "";
+    private logarBtn: string = "";
 
-     preencherUsuario(nome:string) {
+    preencherUsuario(nome: string) {
         this.usuarioTxt = nome;
     }
 
-     preencherSenha(senha:string){
+    preencherSenha(senha: string) {
         this.senhaTxt = senha;
-     }
+    }
 
-     clicarBotaoLogin(){
-        console.log(`Senha atual : ${this.senhaTxt}`)
+    clicarBotaoLogin() {
         console.log(`Usuário atual : ${this.usuarioTxt}`)
+        console.log(`Senha atual : ${this.senhaTxt}`)
         console.log("Logado com sucesso!")
-     }
+    }
 }
 

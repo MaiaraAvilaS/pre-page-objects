@@ -1,6 +1,6 @@
 export default class PrincipalPage{
-        produtoLink: string = "";
-        usuarioLink: string = "";
+        private produtoLink: string = "";
+        private usuarioLink: string = "";
 
 
         clicarProdutosLink(){
